@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.body-error{background-color:#fff;color:white;font-size:16px;margin:0px;padding:0px;}
+.div-error{margin:20px 100px 20px 100px;background-color:#696969;font-weight:light;padding:10px;border:1px solid #000;line-height:20px;}
+img{margin-left:30px;margin-right:30px;}
+</style>
+
+<title>Error Encounter</title>
+</head>
+
+<body clas="body-error">
+<img src="php_error.png" alt="php_error"/>
+<div class="div-error">
+
+<em>LEVEL:  </em>  <?php echo $severity;?>
+<br/>
+<em>MESSAGE:  </em>  <?php echo $message;?>
+<br/>
+
+<em>FILE:  </em>  <?php echo $file;?>
+<br/>
+
+<em>LINE:  </em>  <?php echo $line;?>
+<br/>
+
+</div>
+
+</body>
+</html>

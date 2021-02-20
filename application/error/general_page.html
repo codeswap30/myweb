@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.body-error{margin:0px;padding:0px;font-family:Georgia, serif;font-size:16px;}
+.h-error{background-color:#00fafa;color:#000;margin: 20px 30px 10px 30px; border:1px dotted #ff0000;line-height :5px;word-spacing:2px;letter-spacing:2px;text-align:center;text-transform:uppercase;padding:10px;}
+.div-errors{background-color:#b0e0e6;margin-left:auto;margin-right:auto;width:70%;padding:20px;letter-spacing:10px;text-indent:10px;border:medium dotted #00ff00;color:#000;}
+</style>
+<title><?php echo $title;?></title>
+</head>
+<body>
+<h1 class="h-error">Title of Error: <?php echo $title;?></h1>
+<div class="div-errors" valign="middle">
+Message: <?php echo $message;?>
+</div>
+</body>
+</html>

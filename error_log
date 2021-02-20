@@ -1,0 +1,4 @@
+[24-Jun-2020 15:39:28 Africa/Lagos] PHP Fatal error:  Call to undefined function valid_request() in /home/alfitrah/public_html/system/core/route.php on line 71
+[29-Jun-2020 01:32:42 Africa/Lagos] PHP Fatal error:  Call to undefined function valid_request() in /home/alfitrah/public_html/system/core/route.php on line 71
+[07-Jul-2020 06:46:35 Africa/Lagos] PHP Fatal error:  Call to undefined function valid_request() in /home/alfitrah/public_html/system/core/route.php on line 71
+[23-Jul-2020 19:16:06 Africa/Lagos] PHP Fatal error:  Call to undefined function valid_request() in /home/alfitrah/public_html/system/core/route.php on line 71
